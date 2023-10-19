@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">kids Learning</string>
+    <string name="button">Hello</string>
+    <string name="poems_amp_rhymes"><![CDATA[Poems & Rhymes]]></string>
+</resources>

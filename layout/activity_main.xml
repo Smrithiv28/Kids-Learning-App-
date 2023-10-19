@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/home_bg"
+    android:paddingStart="3dp"
+    android:paddingEnd="3dp">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/app_icon_android"
+        android:layout_gravity="end"
+        android:layout_margin="15dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kids Let's \nLearn"
+            android:textSize="40sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:letterSpacing="0.03"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/top_card"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:padding="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Start learning\nnew Things!"
+                    android:textSize="26dp"
+                    android:textColor="#305F72"
+                    android:fontFamily="sans-serif-black"
+                    android:letterSpacing="0.035" />
+
+                <LinearLayout
+                    android:id="@+id/lil_poem"
+                    android:layout_width="160dp"
+                    android:layout_height="55dp"
+                    android:background="@drawable/card_buttton_bg"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Poems / Rhymes"
+                        android:textColor="#fff"
+                        android:textSize="14sp"
+                        android:gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:textAllCaps="true"
+                        android:textStyle="bold"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="380dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/color_item"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginLeft="18dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="COLORS"
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/cabin_sketch_bold"
+                    android:layout_marginStart="105dp"
+                    android:layout_marginTop="20dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="380dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/number_item"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginLeft="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NUMBERS"
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/cabin_sketch_bold"
+                    android:layout_marginStart="105dp"
+                    android:layout_marginTop="20dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/alphabet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="380dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/alphabet_item"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginLeft="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ALPHABETS"
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/cabin_sketch_bold"
+                    android:layout_marginStart="105dp"
+                    android:layout_marginTop="20dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/week"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="380dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/days_item"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginLeft="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WEEK DAYS"
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/cabin_sketch_bold"
+                    android:layout_marginStart="105dp"
+                    android:layout_marginTop="20dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/shape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:layout_width="380dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/shape_item"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginLeft="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SHAPES"
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/cabin_sketch_bold"
+                    android:layout_marginStart="105dp"
+                    android:layout_marginTop="20dp"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
