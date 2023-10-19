@@ -1,0 +1,59 @@
+ideanity/oceans/kidslearning/adapter/WeekAdapter.java
+ ideanity.oceans.kidslearning.adapter.WeekAdapter
+ ideanity.oceans.kidslearning.adapter.WeekAdapter$1
+ ideanity.oceans.kidslearning.adapter.WeekAdapter$ColorViewHolder
+ideanity/oceans/kidslearning/adapter/AlphabetAdapter.java
+ ideanity.oceans.kidslearning.adapter.AlphabetAdapter
+ ideanity.oceans.kidslearning.adapter.AlphabetAdapter$1
+ ideanity.oceans.kidslearning.adapter.AlphabetAdapter$ColorViewHolder
+ideanity/oceans/kidslearning/adapter/ColorAdapter.java
+ ideanity.oceans.kidslearning.adapter.ColorAdapter
+ ideanity.oceans.kidslearning.adapter.ColorAdapter$1
+ ideanity.oceans.kidslearning.adapter.ColorAdapter$ColorViewHolder
+ideanity/oceans/kidslearning/ColorsActivity.java
+ ideanity.oceans.kidslearning.ColorsActivity
+ ideanity.oceans.kidslearning.ColorsActivity$1
+ideanity/oceans/kidslearning/NumbersActivity.java
+ ideanity.oceans.kidslearning.NumbersActivity
+ ideanity.oceans.kidslearning.NumbersActivity$1
+ideanity/oceans/kidslearning/RecyclerViewAction.java
+ ideanity.oceans.kidslearning.RecyclerViewAction
+ideanity/oceans/kidslearning/helpers/AlphabetHelper.java
+ ideanity.oceans.kidslearning.helpers.AlphabetHelper
+ideanity/oceans/kidslearning/helpers/WeekHelper.java
+ ideanity.oceans.kidslearning.helpers.WeekHelper
+ideanity/oceans/kidslearning/PoemsActivity.java
+ ideanity.oceans.kidslearning.PoemsActivity
+ideanity/oceans/kidslearning/helpers/ColorHelper.java
+ ideanity.oceans.kidslearning.helpers.ColorHelper
+ideanity/oceans/kidslearning/adapter/ShapeAdapter.java
+ ideanity.oceans.kidslearning.adapter.ShapeAdapter
+ ideanity.oceans.kidslearning.adapter.ShapeAdapter$1
+ ideanity.oceans.kidslearning.adapter.ShapeAdapter$ColorViewHolder
+ideanity/oceans/kidslearning/helpers/NumberHelper.java
+ ideanity.oceans.kidslearning.helpers.NumberHelper
+ideanity/oceans/kidslearning/BuildConfig.java
+ ideanity.oceans.kidslearning.BuildConfig
+ideanity/oceans/kidslearning/adapter/NumberAdapter.java
+ ideanity.oceans.kidslearning.adapter.NumberAdapter
+ ideanity.oceans.kidslearning.adapter.NumberAdapter$1
+ ideanity.oceans.kidslearning.adapter.NumberAdapter$ColorViewHolder
+ideanity/oceans/kidslearning/MainActivity.java
+ ideanity.oceans.kidslearning.MainActivity
+ ideanity.oceans.kidslearning.MainActivity$1
+ ideanity.oceans.kidslearning.MainActivity$2
+ ideanity.oceans.kidslearning.MainActivity$3
+ ideanity.oceans.kidslearning.MainActivity$4
+ ideanity.oceans.kidslearning.MainActivity$5
+ ideanity.oceans.kidslearning.MainActivity$6
+ideanity/oceans/kidslearning/helpers/ShapeHelper.java
+ ideanity.oceans.kidslearning.helpers.ShapeHelper
+ideanity/oceans/kidslearning/AlphabetActivity.java
+ ideanity.oceans.kidslearning.AlphabetActivity
+ ideanity.oceans.kidslearning.AlphabetActivity$1
+ideanity/oceans/kidslearning/WeekActivity.java
+ ideanity.oceans.kidslearning.WeekActivity
+ ideanity.oceans.kidslearning.WeekActivity$1
+ideanity/oceans/kidslearning/ShapesActivity.java
+ ideanity.oceans.kidslearning.ShapesActivity
+ ideanity.oceans.kidslearning.ShapesActivity$1
